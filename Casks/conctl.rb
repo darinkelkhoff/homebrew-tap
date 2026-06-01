@@ -1,13 +1,13 @@
 cask "conctl" do
-  version "001"
+  version "002"
 
   on_macos do
     on_intel do
-      sha256 "ebdc1cda40bae4f7a9ae8796326901982dd6a6ddd8402305b141947c8afd88a9"
+      sha256 "e96bcd6280c5fcd3cd21254752e06c9d95e06291c108eb49df90cdbd9c9bfa71"
       url "https://github.com/darinkelkhoff/connectedCli/releases/download/#{version}/conctl_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "adba418d33910a542f2a4aa62945b8a2d01d282c4bde471d837c79bfaae49b60"
+      sha256 "4ffd53dd89d948c67378e95e1a41b7167a5712b38d6d6d43dfc1b71391ecfd89"
       url "https://github.com/darinkelkhoff/connectedCli/releases/download/#{version}/conctl_#{version}_darwin_arm64.tar.gz"
     end
   end
