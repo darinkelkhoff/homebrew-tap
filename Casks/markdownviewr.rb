@@ -7,7 +7,7 @@ cask "markdownviewr" do
   desc "Fast, beautiful markdown viewer for macOS"
   homepage "https://darinkelkhoff.github.io/markdownViewr/"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "markdownViewr.app"
 end
