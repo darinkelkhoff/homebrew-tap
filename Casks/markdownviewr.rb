@@ -1,6 +1,6 @@
 cask "markdownviewr" do
-  version "1.2.0"
-  sha256 "b376a95c9a7ebddceccf8eb6464447a5f8fdfaf52d27f3891ee828b6929f614b"
+  version "1.3.0"
+  sha256 "0b60e8923ca73d0385d8bb59f1c8afcca52b212b7b5885afee3f89b695da2f33"
 
   url "https://github.com/darinkelkhoff/markdownViewr/releases/download/v#{version}/markdownViewr.dmg"
   name "markdownViewr"
